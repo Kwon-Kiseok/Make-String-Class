@@ -11,6 +11,12 @@ my::istream& my::istream::operator>>(char*& str)
     return *this;
 }
 
+my::istream& my::istream::operator>>(const char str[MAX_STRING_LENGTH])
+{
+    scanf_s("%s", str, (unsigned int)sizeof(str));
+    return *this;
+}
+
 my::istream& my::istream::operator>>(char& str)
 {
     scanf_s("%c", &str, 1);

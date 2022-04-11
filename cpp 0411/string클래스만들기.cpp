@@ -31,10 +31,10 @@ int main()
 	std::cin >> str5;
 	std::cout << "입력한 문자열: " << str5 << std::endl;
 
-	//char strArr[MAX_STRING_LENGTH];
-	//cout << "문자열 입력: ";
-	//cin >> strArr;
-	//cout << "입력한 문자열: " << strArr << endl;
+	char strArr[MAX_STRING_LENGTH];
+	cout << "문자열 입력: ";
+	cin >> strArr;
+	cout << "입력한 문자열: " << strArr << endl;
 
 	return 0;
 }
